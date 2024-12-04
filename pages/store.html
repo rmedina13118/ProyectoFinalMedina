@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda - Musical House </title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <script async defer src="../JS/store.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html"><img class="logo" alt="logo" src="/assets/imgs/logo.png" alt=""></a>
+        <nav class="navbar">
+            <ul class="menu-main">
+                <a href="../index.html">
+                    <li>Home</li>
+                </a>
+                <a href="./store.html">
+                    <li>Tienda</li>
+                </a>
+                <a href="./blog.html">
+                    <li>Blog</li>
+                </a>
+                <a href="./cart.html">
+                    <li><img class="cart" src="../assets/imgs/cart.svg" alt="cart"></li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero-store">
+            <video class="video-hero" autoplay loop muted>
+                <source src="../assets/videos/video_hero_store.mp4">
+                Este video no está disponible para tu navegador
+            </video>
+            <div class="overlay"></div>
+            <div class="content-hero">
+                <h1>Sientete en casa comprando en <span>Musical House</span></h1>
+                <p id="ctaStore" class="cta-store">No esperes más <span><img src="../assets/icons/chevron-down.png"
+                            alt="chevron-down"></span>
+                </p>
+            </div>
+        </div>
+
+        <div class="paragraph-store">
+            <p>Musical House, donde cada nota encuentra su lugar y cada músico su inspiración. Descubre un universo de
+                instrumentos, accesorios y equipo diseñado para dar vida a tu pasión por la música. Aquí no solo
+                vendemos productos, <span>¡creamos experiencias que resuenan contigo!</span></p>
+        </div>
+        <div class="grid-store">
+            <div class="filters">
+                <div class="search">
+                    <input type="search" placeholder="Ej: Guitarra, batería ..." id="SearchStore">
+                </div>
+                <div class="categories">
+                    <h4>Categorías</h4>
+                    <div id="categoryContainer"></div>
+                </div>
+            </div>
+            <div id="gridProducts">
+
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
